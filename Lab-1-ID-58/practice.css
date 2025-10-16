@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.images {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.images img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.images h3 {
+  margin: 10px 0 5px;
+}
+
+.images p {
+  margin: 5px 0;
+}
+
+.images button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.images button:hover {
+  background: #0056b3;
+}
